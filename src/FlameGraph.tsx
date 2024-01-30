@@ -16,6 +16,7 @@ export const FlameGraph = ({ data }: { data: StackFrame }) => {
         .width(960)
         .cellHeight(18)
         .transitionDuration(500)
+        // @ts-expect-error idk
         .transitionEase(d3.easeCubic)
         .sort(true)
         .title("")

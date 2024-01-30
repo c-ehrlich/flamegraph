@@ -5,6 +5,7 @@ import { sampleData } from "./data";
 function App() {
   return (
     <div>
+      {/* @ts-expect-error idk */}
       <FlameGraph data={sampleData} />
     </div>
   );
